@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{5E53CCA8-D880-4964-8B8C-B3DB057578E7}") = "Numerov_GroundStates", "Numerov_GroundStates\Numerov_GroundStates.pvfproj", "{CAF23320-2858-47CB-966B-0F8186DDD845}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAF23320-2858-47CB-966B-0F8186DDD845}.Debug|x64.ActiveCfg = Debug|x64
+		{CAF23320-2858-47CB-966B-0F8186DDD845}.Debug|x64.Build.0 = Debug|x64
+		{CAF23320-2858-47CB-966B-0F8186DDD845}.Release|x64.ActiveCfg = Release|x64
+		{CAF23320-2858-47CB-966B-0F8186DDD845}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

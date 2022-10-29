@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<!--PGI Visual Fortran Project File-->
+<PGIproject Version="2.0">
+	<General ProjectIdGuid="{46A6124B-38E6-4CEF-B03C-F8AC10451972}"/>
+	<Configurations>
+		<Config Name="Debug|x64" OutDir="$(PlatformName)\$(ConfigurationName)" IntDir="$(PlatformName)\$(ConfigurationName)" CfgTyp="0" DbgEnvMerge="0" DbgMPI="0" DbgFmt="0" Optzn="0" LinkOutput="$(OutDir)\$(ProjectName).exe"/>
+		<Config Name="Release|x64" OutDir="$(PlatformName)\$(ConfigurationName)" IntDir="$(PlatformName)\$(ConfigurationName)" CfgTyp="0" DbgEnvMerge="0" DbgMPI="0" LinkOutput="$(OutDir)\$(ProjectName).exe"/>
+	</Configurations>
+	<Files>
+		<Folder Name="Include Files">
+		</Folder>
+		<Folder Name="Resource Files">
+		</Folder>
+		<Folder Name="Source Files">
+			<Folder Name="Boundary Values">
+				<File Name="sub_BV_F.f90" ProjRelPath="T" IsFixedFormat="F" IsIncludeFile="F">
+				<Config Name="Debug|x64"/>
+				<Config Name="Release|x64"/>
+			</File>
+				<File Name="sub_BV_I.f90" ProjRelPath="T" IsFixedFormat="F" IsIncludeFile="F">
+				<Config Name="Debug|x64"/>
+				<Config Name="Release|x64"/>
+			</File>
+			</Folder>
+			<Folder Name="First Propagations">
+				<File Name="sub_target_f.f90" ProjRelPath="T" IsFixedFormat="F" IsIncludeFile="F">
+				<Config Name="Debug|x64"/>
+				<Config Name="Release|x64"/>
+			</File>
+				<File Name="sub_target_pr.f90" ProjRelPath="T" IsFixedFormat="F" IsIncludeFile="F">
+				<Config Name="Debug|x64"/>
+				<Config Name="Release|x64"/>
+			</File>
+				<File Name="sub_weight_f.f90" ProjRelPath="T" IsFixedFormat="F" IsIncludeFile="F">
+				<Config Name="Debug|x64"/>
+				<Config Name="Release|x64"/>
+			</File>
+				<File Name="sub_weight_pr.f90" ProjRelPath="T" IsFixedFormat="F" IsIncludeFile="F">
+				<Config Name="Debug|x64"/>
+				<Config Name="Release|x64"/>
+			</File>
+			</Folder>
+			<Folder Name="Functions">
+				<File Name="f_ft.f90" ProjRelPath="T" IsFixedFormat="F" IsIncludeFile="F">
+				<Config Name="Debug|x64"/>
+				<Config Name="Release|x64"/>
+			</File>
+				<File Name="f_potential.f90" ProjRelPath="T" IsFixedFormat="F" IsIncludeFile="F">
+				<Config Name="Debug|x64"/>
+				<Config Name="Release|x64"/>
+			</File>
+				<File Name="f_rp.f90" ProjRelPath="T" IsFixedFormat="F" IsIncludeFile="F">
+				<Config Name="Debug|x64"/>
+				<Config Name="Release|x64"/>
+			</File>
+				<File Name="f_teta.f90" ProjRelPath="T" IsFixedFormat="F" IsIncludeFile="F">
+				<Config Name="Debug|x64"/>
+				<Config Name="Release|x64"/>
+			</File>
+			</Folder>
+			<Folder Name="Main">
+				<File Name="main_OCT_TD_ADW.f90" ProjRelPath="T" IsFixedFormat="F" IsIncludeFile="F">
+				<Config Name="Debug|x64"/>
+				<Config Name="Release|x64"/>
+			</File>
+				<File Name="mod_OCT.f90" ProjRelPath="T" IsFixedFormat="F" IsIncludeFile="F">
+				<Config Name="Debug|x64"/>
+				<Config Name="Release|x64"/>
+			</File>
+			</Folder>
+			<Folder Name="Middle Propagations">
+				<File Name="sub_pr_b.f90" ProjRelPath="T" IsFixedFormat="F" IsIncludeFile="F">
+				<Config Name="Debug|x64"/>
+				<Config Name="Release|x64"/>
+			</File>
+				<File Name="sub_pr_b0.f90" ProjRelPath="T" IsFixedFormat="F" IsIncludeFile="F">
+				<Config Name="Debug|x64"/>
+				<Config Name="Release|x64"/>
+			</File>
+				<File Name="sub_pr_b0_cn.f90" ProjRelPath="T" IsFixedFormat="F" IsIncludeFile="F">
+				<Config Name="Debug|x64"/>
+				<Config Name="Release|x64"/>
+			</File>
+				<File Name="sub_pr_b_cn.f90" ProjRelPath="T" IsFixedFormat="F" IsIncludeFile="F">
+				<Config Name="Debug|x64"/>
+				<Config Name="Release|x64"/>
+			</File>
+				<File Name="sub_pr_f.f90" ProjRelPath="T" IsFixedFormat="F" IsIncludeFile="F">
+				<Config Name="Debug|x64"/>
+				<Config Name="Release|x64"/>
+			</File>
+				<File Name="sub_pr_f_cn.f90" ProjRelPath="T" IsFixedFormat="F" IsIncludeFile="F">
+				<Config Name="Debug|x64"/>
+				<Config Name="Release|x64"/>
+			</File>
+			</Folder>
+			<File Name="sub_dipoleMoment.f90" ProjRelPath="T" IsFixedFormat="F" IsIncludeFile="F">
+				<Config Name="Debug|x64"/>
+				<Config Name="Release|x64"/>
+			</File>
+			<File Name="sub_energylevels.f90" ProjRelPath="T" IsFixedFormat="F" IsIncludeFile="F">
+				<Config Name="Debug|x64"/>
+				<Config Name="Release|x64"/>
+			</File>
+			<File Name="sub_hermit_maker.f90" ProjRelPath="T" IsFixedFormat="F" IsIncludeFile="F">
+				<Config Name="Debug|x64"/>
+				<Config Name="Release|x64"/>
+			</File>
+			<File Name="sub_invert_Matrix.f90" ProjRelPath="T" IsFixedFormat="F" IsIncludeFile="F">
+				<Config Name="Debug|x64"/>
+				<Config Name="Release|x64"/>
+			</File>
+			<File Name="sub_writeData.f90" ProjRelPath="T" IsFixedFormat="F" IsIncludeFile="F">
+				<Config Name="Debug|x64"/>
+				<Config Name="Release|x64"/>
+			</File>
+		</Folder>
+	</Files>
+	<ProjStartupServices/>
+	<Globals/>
+</PGIproject>
